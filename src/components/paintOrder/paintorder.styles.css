@@ -1,0 +1,98 @@
+.op-table {
+	margin-top: 20px;
+	padding: 0px 18px;
+	width: auto;
+}
+
+.done {
+	color: #036028;
+	padding: 4px 12px 5px 12px;
+	justify-content: center;
+	align-items: center;
+	gap: 4px;
+	border-radius: 1000px;
+	background: #dffeec;
+}
+
+.inprogress {
+	color: #685e02;
+	padding: 4px 12px 5px 12px;
+	justify-content: center;
+	align-items: center;
+	border-radius: 1000px;
+	background: #fffacb;
+}
+
+.open {
+	color: #00485f;
+	padding: 4px 12px 5px 12px;
+	justify-content: center;
+	align-items: center;
+	gap: 4px;
+	border-radius: 1000px;
+	background: #d3f0fa;
+}
+
+.os-mainContainer {
+	margin-top: 18px;
+	margin-left: 18px;
+	margin-right: 18px;
+	/* border: 2px solid red;
+	width: 100%; */
+}
+
+.os-backContainer {
+	display: flex;
+}
+/* 
+.backButton {
+	display: flex;
+	padding: 8px;
+	justify-content: center;
+	align-items: center;
+	gap: 8px;
+	border-radius: 5px;
+} */
+
+.statusBar {
+	margin-top: 16px;
+	display: flex;
+	flex-direction: column;
+	/* align-items: flex-start;
+	justify-content: space-between; */
+	gap: 8px;
+	/* border: 2px solid yellow; */
+	/* align-self: stretch; */
+	width: 100%;
+}
+
+.po-border {
+	border: 1px solid #ebebe4;
+	border-radius: 5px;
+}
+.po-detailsHeading {
+	display: flex;
+	padding: 12px 15px;
+	align-items: center;
+	gap: 10px;
+	flex: 1 0 0;
+	border-bottom: 1px solid #ebebe4;
+	background: #f8f3fb;
+}
+
+/* Default styles for the statusBarResponsive div */
+.StatusBarResponsive img {
+	/* Your default styles go here */
+	height: 18px;
+	width: 18px;
+}
+
+/* Media query for screens with a minimum width of 600px */
+@media screen and (max-width: 900px) {
+	.StatusBarResponsive img {
+		/* Styles specific to screens wider than 600px go here */
+		/* For example, you can adjust font size, padding, etc. */
+		height: 12px;
+		width: 12px;
+	}
+}

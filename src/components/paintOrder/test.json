@@ -1,0 +1,96 @@
+[
+	{
+		"_id": "123",
+		"orderStatus": "in progress",
+		"items": [
+			{
+				"itemName": "Asian Paints",
+				"quantity": 20,
+				"price": 1000
+			},
+			{
+				"itemName": "Burger",
+				"quantity": 30,
+				"price": 2000
+			}
+		],
+		"totalPrice": 5000,
+		"totalQuantity": 50,
+
+		"deliveryStatus": "not assigned",
+		"deliveryPartner": {
+			"firstName": "John",
+			"lastName": "Shell",
+			"phone": "122343633"
+		},
+		"customerDetails": {
+			"firstName": "Arun",
+			"lastName": "Pal",
+			"phone": "8447474484",
+			"email": "abcdhdhdhdh@gmail.com",
+			"address": " A-Wing, #404, Evershine Buildings Green Park, Near Garison Hall Helix, USA - 4558 "
+		}
+	},
+	{
+		"_id": "124",
+		"orderStatus": "open",
+		"items": [
+			{
+				"itemName": "Asian Paints",
+				"quantity": 20,
+				"price": 1000
+			},
+			{
+				"itemName": "Burger",
+				"quantity": 30,
+				"price": 2000
+			}
+		],
+		"totalPrice": 5000,
+		"totalQuantity": 50,
+		"deliveryStatus": "accepted",
+		"deliveryPartner": {
+			"firstName": "John",
+			"lastName": "Shell",
+			"phone": "122343633"
+		},
+		"customerDetails": {
+			"firstName": "Arun",
+			"lastName": "Pal",
+			"phone": "8447474484",
+			"email": "abcdhdhdhdh@gmail.com",
+			"address": " A-Wing, #404, Evershine Buildings Green Park, Near Garison Hall Helix, USA - 4558 "
+		}
+	},
+	{
+		"_id": "125",
+		"orderStatus": "done",
+		"items": [
+			{
+				"itemName": "Asian Paints",
+				"quantity": 20,
+				"price": 1000
+			},
+			{
+				"itemName": "Burger",
+				"quantity": 30,
+				"price": 2000
+			}
+		],
+		"totalPrice": 5000,
+		"totalQuantity": 50,
+		"deliveryStatus": "declined",
+		"deliveryPartner": {
+			"firstName": "John",
+			"lastName": "Shell",
+			"phone": "122343633"
+		},
+		"customerDetails": {
+			"firstName": "Arun",
+			"lastName": "Pal",
+			"phone": "8447474484",
+			"email": "abcdhdhdhdh@gmail.com",
+			"address": " A-Wing, #404, Evershine Buildings Green Park, Near Garison Hall Helix, USA - 4558 "
+		}
+	}
+]
